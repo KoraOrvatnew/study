@@ -1,0 +1,37 @@
+
+    
+    h1 {
+        color: rgb(226, 64, 43);
+
+    }
+    #welcom {
+        color: rgb(234, 213, 30);
+        font-size: 20px;
+
+    }
+    .fon {
+        background-color: aquamarine;
+    }
+    .fon2 {
+        background-color:pink;
+    }
+    .white-color1 {
+        color: rgb(255, 102, 0);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+    .white-color2 {
+        color: aqua;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+    .white-color3 {
+        color: rgb(199, 117, 213);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+    body { 
+
+background-color: #0739c2; 
+
+}

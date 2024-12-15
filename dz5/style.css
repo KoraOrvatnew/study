@@ -1,0 +1,26 @@
+.cifra {
+    color: blue;
+}
+.function {
+    color: gray;
+}
+.function2 {
+    color: magenta;
+}
+.service {
+    color: red
+}
+button {
+    width: 3em; /* Ширина кнопки */
+    height: 2em; /* Высота кнопки */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+#calc {
+    background-color: rgb(32, 106, 255);
+    color: aliceblue;
+    text-align: left;
+    vertical-align: auto;
+}
+#table {
+    background-color: rgb(243, 228, 210);
+    }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table id="table" align="center"  border="1">
+    <table id="table" align="center"  border="0">
             <tbody>
     <tr>
       <td id="calc" colspan="11">
@@ -18,26 +18,66 @@
      
     </tr>
     <tr>
-        <td colspan="11">
-            Правка Вид Справка
+        <td colspan="11" bgcolor="#fff">
+            Правка Вид  Справка
         </td>
         
     </tr>
     <tr>
-        <td colspan="11">
+        <td colspan="11" align="right">
             <input type="text" placeholder="0">
         </td>
-       
-    </tr>
+           </tr>
     <tr>
-        <td colspan="11">
-           <input type="radio">
+                <td id="prymougolnik" colspan="5">
+           <input id="Hex" type="radio" name="one">
+           <label for="Hex">Hex</label>
+           <input id="Dec" type="radio" name="one">
+           <label for="Dec">Dec</label>
+           <input id="Oct" type="radio" name="one">
+           <label for="Oct">Oct</label>
+           <input id="Bin" type="radio" name="one">
+           <label for="Bin">Bin</label>
         </td>
-        
-      </tr>
+        <td colspan="6">
+           <input id="Degrees" type="radio" name="two">
+           <label for="Degrees">Degrees</label>
+           <input id="Radians" type="radio" name="two">
+           <label for="Radians">Radians</label>
+           <input id="Gradients" type="radio" name="two">
+           <label for="Gradients">Gradients</label>
+        </td>
+              </tr>
       <tr>
-        <td colspan="11">
-            <input type="checkbox">
+        <td colspan="3">
+            <label>
+                <input type="checkbox">
+               Inv
+              </label>
+              <label>
+                <input type="checkbox">
+                Hyp
+              </label>
+             </td>
+             <td align="center">
+                <BUtton id="pusto">                    
+                </BUtton>
+             </td>
+             <td align="center">
+                <BUtton id="pusto">
+                       
+                </BUtton>
+             </td>
+         <td colspan="6" align="right">
+            <button class="servicelong">
+                Backspase
+            </button>
+            <button class="servicelong">
+            CE
+            </button>
+            <button class="servicelong">
+                C
+            </button>
          </td>
              </tr>
       <tr>

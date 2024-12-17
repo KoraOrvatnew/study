@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #state {
+            width: 10%;
+        }
+        #leftcol {
+            width: 70px
+        }
+        #rightcol {
+            width:max-content;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="введи имя" maxlength="10" required readonly>
+        <br>
+        <input type="submit" value="Кнопка">
+        <br>
+        <input type="email" placeholder="электронная почта">
+        <div>
+            <label>
+                <input type="checkbox" name="it" value="html">
+                HTML
+            </label>
+            <label>
+                <input type="checkbox" name="it" value="css">
+                CSS
+            </label>
+            <label>
+                <input type="checkbox" name="it" value="js">
+                JS
+            </label>
+        </div>
+        <div>
+            <input type="radio" id="html" name="it2" value="html">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="it2" value="css">
+            <label for="css">CSS</label>
+            <input type="radio" id="js" name="it2" value="js">
+            <label for="js">JS</label>
+        </div>
+        <input type="password"><br>
+        <input type="submit" value="Кнопка"><br>
+        <input type="button" value="button"><br>
+        <input type="reset" value="reset"><br>
+        <input type="file"><br>
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="range" min="0" max="100" step="1"><br>
+        <input type="number"><br>
+        <input type="tel" pattern="" placeholder="+375 29 123 45 67"><br>
+        <input type="time"><br>
+        <input type="datetime-local" min="2023-09-15T03:00"><br>
+        <input type="submit" value="submit"><br>
+        <input type="button" value="button"><br>
+        <input type="reset" value="reset"><br>
+        <select>
+            <option value="gomel">г. Гомель</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <textarea id="textarea"rows="5" cols="12" style="resize: none" wrap="soft">
+        </textarea>
+    </form>
+    <hr>
+    <form>
+            <table cellspacing="0" id="maket" border="1" width="500px">
+             <tr> 
+              <td id="leftcol">
+                Last Name
+            </td>
+              <td id="rightcol">
+                <input type="text" placeholder="Mironovich">
+                 </td>
+             </tr>
+             <tr> 
+                <td id="leftcol">
+                    First Name
+                </td>
+                <td id="rightcol">
+                    <input type="text" placeholder="Alena">
+                   </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    Adress
+                </td>
+                <td id="rightcol">
+                <textarea rows="5" cols="50"> 24 Cetkin st
+                </textarea>
+                               </tr>
+               <tr> 
+                <td id="leftcol">
+                    City
+                </td>
+                <td id="rightcol">
+                    <input type="text" placeholder="Minsk">
+                    State
+                    <input id="state" type="text">
+                     </td>
+                </td>
+            <tr> 
+                <td id="leftcol">Zip/Postal cod</td>
+                <td id="rightcol">
+                    <input type="number">
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    Country
+                </td>
+                <td id="rightcol">
+                    <select>     
+                        <option value="" disabled selected>Belarus</option>
+                        <option value="belarus">Belarus</option>
+                        <option value="russia">Russia</option>
+                        <option value="ukraine">Ukraine</option>
+                        <option value="lithuania"> Lithuania</option>
+                        <option value="poland">Poland</option>
+                        </select>
+                </td>
+               </tr>
+               <tr> 
+               <tr> 
+                <td id="leftcol">
+                    Phone
+                </td>
+                <td id="rightcol">
+                   +375(<input id="state" type="text">)
+                   <input type="tel" pattern="" placeholder="123 45 67">
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    E-mail
+                </td>
+                <td>
+                    <input type="email">
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    Birth date
+                     <input type="date">
+                </td>
+                <td id="rightcol">
+                    <input type="date">
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    Gender
+                </td>
+                <td id="rightcol">
+                    <select>     
+                    <option value="" disabled selected>Not entered</option>
+                    <option value="female">female</option>
+                    <option value="male">male</option>
+                    </select>
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    Starting date
+                </td>
+                <td id="rightcol">
+                    <div>
+                        <input type="radio" id="spring" name="Startingdate" value="Spring">
+                        <label for="spring">Spring</label>
+                       <input type="radio" id="authumg" name="Startingdate" value="Authumg">
+                        <label for="authumg">Authumg</label>
+                     </div>
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol">
+                    Comments/Questions
+                </td>
+                <td id="rightcol">
+                    <textarea rows="5" cols="50">Please, send me more information about the ledding...
+                    </textarea>
+                </td>
+               </tr>
+               <tr> 
+                <td id="leftcol" colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                </td>           
+               </tr>
+            </table>
+        </form>
+           
+</body>
+</html>

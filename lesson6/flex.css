@@ -1,0 +1,43 @@
+.green {
+    background-color: green;
+    height: 10px; ;
+   
+}
+.red {
+    background-color: red;
+    height: 20px;
+}
+.pink {
+    background-color: pink;
+    height: 30px;
+}
+.yellow {
+    background-color: yellow;
+    height: 40px;
+}.violet {
+    background-color:violet;
+    height: 50px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: ;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+.w-100 {
+    width: 100%;
+}
+.pink,
+.violet {
+    color: aliceblue;
+}
+#p1 + #p2 {
+    color: aquamarine;
+}
+.green + .w-100 {
+    color: blue;
+}
+.green p {
+    font: size 30px;;
+}

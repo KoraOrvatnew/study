@@ -1,0 +1,42 @@
+.cifra {
+    color: blue;
+}
+.function {
+    color: gray;
+}
+.function2 {
+    color: magenta;
+}
+.service {
+    color: red
+}
+.servicelong {
+    color: red;
+    width: 6em; /* Ширина кнопки */
+    height: 2em; /* Высота кнопки */
+    box-shadow: 2px 2px 4px rgba(10, 10, 10, 0.4); 
+}
+button {
+    width: 3em; /* Ширина кнопки */
+    height: 2em; /* Высота кнопки */
+    box-shadow: 2px 2px 4px rgba(10, 10, 10, 0.4);
+    background-color: rgb(243, 228, 210);
+    border:none;
+
+}
+#calc {
+    background-color: rgb(32, 106, 255);
+    color: aliceblue;
+    text-align: left;
+    vertical-align: auto;
+}
+#table {
+    background-color: rgb(243, 228, 210);
+}
+    #pusto {
+        width: 2em; /* Ширина кнопки */
+        height: 2em; /* Высота кнопки */ 
+        align-content: center;
+        box-shadow:inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }    
+   

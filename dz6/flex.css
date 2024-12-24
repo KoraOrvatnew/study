@@ -1,0 +1,44 @@
+.wrapper {
+	display: flex;
+	height: 350px;
+	background-color: #ffffff;
+    align-items: baseline;
+    margin: 0%;article
+    align-items: flex-start;
+    flex-wrap: nowrap;    
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header {
+	background-color: yellow;
+    height: 20%;
+	align-self: baseline;
+	width: 100%;
+	min-width: 50px;
+   
+}.footer {
+	background-color: yellow;
+    height: 20%;
+	align-self: baseline;
+	width: 100%;
+	min-width: 50px;
+}
+.article {
+	background-color: yellow;
+	height: 50%;
+	width: 55%;
+    align-self: baseline;	 	
+}
+.nav {
+	background-color: yellow;
+	height: 50%;
+	width: 20%;
+    align-self: baseline;
+}
+.ads {
+	background-color: yellow;
+	height: 50%;
+	width: 20%;
+    align-self: baseline;
+}

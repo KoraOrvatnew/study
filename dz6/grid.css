@@ -1,0 +1,37 @@
+.container { 
+    display: grid; 
+    border-color: white;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+     }
+.header {
+    height: auto;
+    background-color: yellow;
+    grid-column-start:1;
+    grid-column-end: 4; 
+    }
+.article {
+    height: auto;
+    background-color: yellow;       
+    grid-column-start: 1;
+    grid-column-end: 1;
+   }
+.nav {
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: yellow;
+    }
+.ads {
+    height: auto;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: yellow;
+   }
+.footer {
+    height: auto;
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 4;
+   }

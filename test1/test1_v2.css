@@ -1,5 +1,9 @@
 .wrapper {
-    display: flex;
+    .wrapper {
+        display: flex;
+              
+      }
+      
    
 }
 
@@ -16,17 +20,18 @@
    
     }
     .round2 {
-
-   
+ 
     padding: 1em 2em; /* Расстояние от текста до края */
     background-color: #ffffff; /* Цвет фона */
     color: #020202; /* Цвет текста */
     border: 0; /* Убираем рамку */
 }
-/* .name {
+.name {
     text-align: left;
-    text-size-adjust:;
-} */
+    margin: 20px;
+    padding: 20px;;
+    /* font-size:250%; */
+}  
 
     
    

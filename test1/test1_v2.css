@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+   
+}
+
+.button {
+    text-align: center;
+    background-color: #fbfbfb; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    border: 0; /* Убираем рамку */
+}
+    .round {
+   border-radius: 1000px; /* Радиус скругления */
+    border: 0px solid rgb(255, 255, 255); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   
+    }
+    .round2 {
+
+   
+    padding: 1em 2em; /* Расстояние от текста до края */
+    background-color: #ffffff; /* Цвет фона */
+    color: #020202; /* Цвет текста */
+    border: 0; /* Убираем рамку */
+}
+/* .name {
+    text-align: left;
+    text-size-adjust:;
+} */
+
+    
+   

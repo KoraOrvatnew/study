@@ -1,0 +1,66 @@
+#p::after {
+    content: "применил псевдоэлемент after";
+}
+#p::before {
+    content: "применил псевдоэлемент befor";
+    color: brown;
+}
+.links:link {
+    color: green;
+
+}
+.links:visited {
+    color: rgb(128, 0, 128);
+
+}
+.links:active {
+    color: rgb(49, 0, 128);
+
+}
+.hover-div:hover {
+    background-color: blueviolet;
+
+}
+.hover-div > span:hover {
+    background-color: rgb(43, 52, 226);
+/* cursor: pointer; */
+/* cursor: wait; */
+/* cursor: not-allowed; визуал запрета нажатия */
+ /* cursor: zoom-in; лупа с +  zoom-out лупа с -*/ 
+/* cursor: crosshair выделение области крестик */
+
+}
+.empty:empty {
+    height: 20px
+    background-color: blueviolet;
+}
+
+
+.child:first-child {
+    background-color: blanchedalmond;
+}
+
+.child:last-child {
+    background-color: rgb(216, 205, 255);
+}
+.child:nth-child(even) {
+    color: brown;
+}
+.child:nth-child(odd) {
+    color: rgb(110, 165, 42);
+}
+.child:nth-child(2n + 3) {
+    color: rgb(42, 73, 165);
+}
+@media screen  and (max-width: 768px){
+    a {
+        display:none;
+    }
+    
+}
+.media {
+    width: 50%;
+    background-color: blue;
+    color: beige;
+    padding: 25px; ;
+}

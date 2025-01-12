@@ -22,4 +22,42 @@ height: 25px;
 nav-link {
     font-size: 1.1em !important;
 }
-https://www.youtube.com/watch?v=GLeG11ct1R0&list=PL0lO_mIqDDFUtdaDuiYUsFOnbdHkVEDWN&index=3
+table {
+    width: 100%;
+    border: 0;
+    margin: 33%;
+    
+}
+td {
+    text-align: left;
+}
+.content{
+    margin: 33%;
+   
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+ .social-icons a {
+  margin: 0 10px;
+}
+ 
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+ 
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+footer {
+    background: #3f3f3f;
+    padding-top: 50px;
+    border-top: 4px solid silver;
+    color:white;
+}
+
+

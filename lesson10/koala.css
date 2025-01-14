@@ -1,0 +1,14 @@
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: red; }
+  .parent span {
+    color: blue;
+    font-size: 20px; }
+  .parent-main {
+    width: 200px;
+    height: 200px;
+    background-color: #0033ff;
+    font-size: 20px;
+    color: aqua;
+    font-family: bold; }

@@ -1,0 +1,92 @@
+.container { 
+    display: grid; 
+    background: #ffffff;
+    /* border-color: rgb(255, 255, 255); */
+    height:100%;
+    width:100%;
+    /* grid-template-columns: auto auto auto;
+    gap: 10px; */
+     }
+     .stena {
+        background: #fafafa;
+        grid-column-start:1;
+        grid-column-end: 4; 
+     }
+     .nav{
+        grid-column-start:1;
+        grid-column-end: 1; 
+        grid-row-start: 1;
+        grid-row-end:4;
+        align-items: normal;
+       
+     }
+     .avatar {
+        width: 50%;
+        height: 50%;
+        grid-column-start:2;
+        grid-column-end: 2;  
+        grid-row-start: 1;
+        grid-row-end:1;
+
+     }
+     .friends {
+        width: 230px;
+        height: 200px;
+        grid-column-start:2;
+        grid-column-end: 2; 
+        grid-row-start: 2;
+        grid-row-end:4;
+
+
+     }
+     .about {
+        grid-column-start:3;
+        grid-column-end: 4; 
+        grid-row-start: 1;
+        grid-row-end:1;
+        width:auto;
+
+     }
+    .fotos {
+        grid-column-start:3;
+        grid-column-end: 6; 
+        grid-row-start: 1;
+        grid-row-end:1;
+
+     }
+
+     .button {
+        border: 1px;
+        background-color: #ffffff;
+     }
+/* .header {
+    height: auto;
+    background-color: yellow;
+
+    grid-column-start:1;
+    grid-column-end: 4; 
+    }
+.article {
+    height: auto;
+    background-color: yellow;       
+    grid-column-start: 1;
+    grid-column-end: 1;
+   }
+.nav {
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: yellow;
+    }
+.ads {
+    height: auto;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: yellow;
+   }
+.footer {
+    height: auto;
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 4;
+   } */

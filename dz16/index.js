@@ -22,23 +22,40 @@
 // Создайте функцию, которая отправляет данные на сервер 
 // (например, новый пост) и выводит ответ.
 
-async function sendPostData(title, body) {
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ title, body, userId: 1 }),
-    });
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data = await response.json();
-    console.log(data);
-    return data;
-    // Возможно, нужно вернуть ответ сервера для дальнейшего использования
-    return response;
-}
+// async function sendPostData(title, body) {
+//     const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
+//         method: 'POST',
+//         headers: {
+//             'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify({ title, body, userId: 1 }),
+//     });
+//     if (!response.ok) {
+//         throw new Error(`HTTP error! status: ${response.status}`);
+//     }
+//     const data = await response.json();
+//     console.log(data);
+//     return data;
+//     // Возможно, нужно вернуть ответ сервера для дальнейшего использования
+//     return response;
+// }
 
-// Пример использования
+// Задача 3: Обработка ошибок.
+// Напишите функцию, которая обрабатывает ошибки при запросе к несуществующему URL.
+
+const imgExists = document.createElement('img');
+imgExists.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/PNG_Test.png/477px-PNG_Test.png"
+
+imgExists.onerror = function(a) {
+  console.log('imgExists не существует');
+};
+
+const imgNotExists = document.createElement('img');
+imgNotExists.src = "https://google.com/invalid/address.png"
+
+imgNotExists.onerror = function(a) {
+  console.log('imgNotExists не существует');
+};
+
+
 

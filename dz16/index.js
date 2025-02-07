@@ -43,19 +43,13 @@
 // Задача 3: Обработка ошибок.
 // Напишите функцию, которая обрабатывает ошибки при запросе к несуществующему URL.
 
-const imgExists = document.createElement('img');
-imgExists.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/PNG_Test.png/477px-PNG_Test.png"
-
-imgExists.onerror = function(a) {
-  console.log('imgExists не существует');
-};
-
-const imgNotExists = document.createElement('img');
-imgNotExists.src = "https://google.com/invalid/address.png"
-
-imgNotExists.onerror = function(a) {
-  console.log('imgNotExists не существует');
-};
-
-
-
+// const imgExists = document.createElement('img');
+// imgExists.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/PNG_Test.png/477px-PNG_Test.png"
+// imgExists.onerror = function(a) {
+//   console.log('imgExists не существует');
+// };
+// const imgNotExists = document.createElement('img');
+// imgNotExists.src = "https://google.com/invalid/address.png"
+// imgNotExists.onerror = function(a) {
+//   console.log('ссылка не существует');
+// };

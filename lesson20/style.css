@@ -1,0 +1,32 @@
+/* #parent {
+    width: 500px;;
+    height: 400px;
+    background: #4a4747;
+flex-direction: column;
+display: flex;
+justify-content:space-around;
+align-items:center;
+}
+
+#child-1 {
+    width: 300px;
+    height: 50px;
+    background: #e70f0f;
+}
+
+#child-2 {
+    width: 300px;
+    height: 50px;
+    background: #1e2353;
+}
+ */
+
+ /* Тест */
+
+.correct
+{
+    background-color: green;
+}
+.wrong {
+    background-color: red;
+}

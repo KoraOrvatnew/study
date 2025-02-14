@@ -1,0 +1,38 @@
+body {
+    overflow: hidden;
+    background: #e5e7e6;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.form {
+    border: 1px solid black;
+    padding: 15px;
+    /* position: absolute; */
+    /* top: 40%; */
+    border-radius: 15px;
+    background: #03f7ef;
+}
+
+    form {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    button {
+        width: 100%;
+        border-radius: 15px;
+        background: #c4dedd;
+    }
+    input {
+     
+        border-radius: 15px;
+        background: #c4dedd;
+    }

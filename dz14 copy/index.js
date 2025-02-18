@@ -20,6 +20,7 @@
 
 // Напишите функцию isPalindrome(str), 
 // // которая проверяет, является ли строка палиндромом 
+// Вариант 1.
 // function palindrome(str) {
 //     let check = '';
 //     for (let i = str.length - 1; i >= 0; --i) {
@@ -30,6 +31,16 @@
 //   console.log(palindrome('шалаш'));
 //   console.log(palindrome('а роза упалана лапу азора'));
 //   console.log(palindrome('311113'));
+
+// Вариант 2.
+// function isPalindrome(str) { 
+//     const cleaned = str.replace(/\s+/g, '').toLowerCase();/* Удаляем все пробелы и приводим строку к нижнему регистру*/ 
+//     const reversed = cleaned.split('').reverse().join(''); /*Разворачиваем очищенную строку */
+//     return cleaned === reversed;  /*Сравниваем оригинальную очищенную строку с её перевёрнутой версией*/ 
+//   }    
+// console.log(isPalindrome("Шалаш")); 
+// console.log(isPalindrome("А роза упалана лапу азора")); 
+// console.log(isPalindrome("311113")); 
 
 // Создайте функцию uniqueValues(arr), 
 // которая возвращает новый массив с уникальными значениями 

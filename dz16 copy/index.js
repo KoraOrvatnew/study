@@ -22,6 +22,7 @@
 // Создайте функцию, которая отправляет данные на сервер 
 // (например, новый пост) и выводит ответ.
 
+// Вариант 1
 // async function sendPostData(title, body) {
 //     const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
 //         method: 'POST',
@@ -39,10 +40,21 @@
 //     // Возможно, нужно вернуть ответ сервера для дальнейшего использования
 //     return response;
 // }
+// Вариант 2
+// const postData = async (url = '', data = {}) => { /*функция которая принимает в качестве параметров url и данные которые необходимо обработать*/
+// const response = await fetch(url, { /* запрос*/
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json'
+//       },
+//        body: JSON.stringify(data)
+//     });
+//     return response.json(); 
+//   }
 
 // Задача 3: Обработка ошибок.
 // Напишите функцию, которая обрабатывает ошибки при запросе к несуществующему URL.
-
+// Вариант 1
 // const imgExists = document.createElement('img');
 // imgExists.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/PNG_Test.png/477px-PNG_Test.png"
 // imgExists.onerror = function(a) {
@@ -53,3 +65,7 @@
 // imgNotExists.onerror = function(a) {
 //   console.log('ссылка не существует');
 // };
+
+
+
+

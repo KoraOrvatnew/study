@@ -28,9 +28,9 @@
 //     }
 //     return str == check;
 //   }
-//   console.log(palindrome('шалаш'));
-//   console.log(palindrome('а роза упалана лапу азора'));
-//   console.log(palindrome('311113'));
+//   console.log(isPalindrome('шалаш'));
+//   console.log(isPalindrome('а роза упалана лапу азора'));
+//   console.log(isPalindrome('311113'));
 
 // Вариант 2.
 // function isPalindrome(str) { 
@@ -38,9 +38,9 @@
 //     const reversed = cleaned.split('').reverse().join(''); /*Разворачиваем очищенную строку */
 //     return cleaned === reversed;  /*Сравниваем оригинальную очищенную строку с её перевёрнутой версией*/ 
 //   }    
-// console.log(isPalindrome("Шалаш")); 
-// console.log(isPalindrome("А роза упалана лапу азора")); 
-// console.log(isPalindrome("311113")); 
+// console.log(isPalindrome(`Шалаш`)); 
+// console.log(isPalindrome(`А роза упалана лапу азора`)); 
+// console.log(isPalindrome(`311113`)); 
 
 // Создайте функцию uniqueValues(arr), 
 // которая возвращает новый массив с уникальными значениями 
